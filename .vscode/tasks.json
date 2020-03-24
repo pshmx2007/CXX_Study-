@@ -10,8 +10,7 @@
             "args": [
                 "-o",
                 "${fileDirname}/test.out",
-                "${file}",
-                "${fileDirname}/global.cpp"
+                "${fileDirname}/*.cpp"
             ],
             "options": {
                 "cwd": "/usr/bin"
